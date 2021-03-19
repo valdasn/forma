@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>Forma</h1>
+    <form action="#" method="get" enctype="multipart/form-data">
+        <div>
+            <p>Vardas</p>
+        <input placeholder="Vardas" type="text" name="vardas">
+        </div>
+        <div>
+            <p>Slaptažodis</p>
+        <input type="password" name="password">
+        </div>
+        <div>
+            <p>Tel.nr</p>
+           <input type="tel" name="tel">
+        </div>   
+        <div>
+            <p>Lytis</p>
+            <input checked type="radio" name="gender" value="male"> Vyras
+        </div>
+        <div>
+            <input type="radio" name="gender" value="female"> Moteris
+        </div>
+        <div>
+            <p>Transportas</p>
+            <input checked type="checkbox" name="bike" value="yes"> Dviratis
+        </div>
+        <div>
+            <input checked type="checkbox" name="car" value="yes"> Mašina
+        </div>
+        <div>
+            <input type="checkbox" name="bus" value="yes"> Autobusas
+        </div>
+        <div>
+            <p>Papildoma Informacija</p>
+            <textarea name="text" rows="3" cols="30"></textarea>
+        </div>
+        <div>
+            <p>Pridėti Nuotrauką</p>
+            <input type="file">
+        </div>
+        <div>
+            <p>Patinkanti Spalva</p>
+            <select name="color">
+                <option value="yellow">Geltona</option>
+                <option value="green">Žalia</option>
+                <option value="red">Raudona</option>
+            </select>
+        </div>
+        <div>
+            <p>Veiksmai</p>
+            <button type="submit">Siųsti</button> 
+            <button type="reset">Išvalyti</button> 
+        </div>
+    </form>
+</body>
+
+</html>
